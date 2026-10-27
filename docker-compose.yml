@@ -1,0 +1,7 @@
+services:
+  ts-wiki:
+    build: .
+    container_name: ts-wiki
+    ports:
+      - "8090:80"
+    restart: unless-stopped
